@@ -39,3 +39,51 @@ body {
   #imgLink {
     width: 50px;  
    }
+
+   #imgLogo{
+       width: 300px;
+   }
+
+   /*Sobre*/
+
+   #about-area{
+       background-color: #242424;
+   }
+   /*Titulo padrão para todas as sessões*/
+   .main-title{
+       color: #FFF;
+       margin: 0 0 65px 0;
+       font-size: 30px;
+       text-align: center;
+   }
+
+   .main-title::after{
+    content: "";
+    border-top: 2px solid #FFF;
+    width: 10%;
+    position: absolute;
+    top: 290px;
+    left: 45.2%;
+
+   }
+
+   .about-title{
+     font-size: 17px;
+     color: #FFF;
+     text-transform: uppercase;
+     font-weight: bold;
+
+   }
+
+   #about-list{
+     list-style: none;
+     padding-left: 0;
+   }
+
+   #about-list li{
+     line-height: 30px;
+   }
+
+   #about-list i{
+     color: #FFF
+   }
