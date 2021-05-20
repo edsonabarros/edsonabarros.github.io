@@ -6,6 +6,8 @@ body {
 
   }
 
+
+
   h1{
         color: #FFF;
        text-align: center;
@@ -20,8 +22,8 @@ body {
   }
   
   p, li {
-    color: #444;
-    font-size: 14px;
+    color: #FFF;
+    font-size: 20px;
   }
   
   /* Barra de navegação */
@@ -31,30 +33,9 @@ body {
   
   #nav-container {
     padding-top: 0;
-    padding-bottom: 15px;
+    padding-bottom: 0;
   }
   
-  #logo {
-    width: 170px;
-  }
-  
-  .navbar-brand {
-    padding: 0;
-    color: #FFF;
-  }
-  
-  .navbar-brand:hover {
-    color: #FFF;
-  }
-  
-  #navbar-links a {
-    color: #FFF;
-  }
-  
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem 8rem
-  }
-  
-  .nav-item.active {
-    border-bottom: 3px solid #FFF;
-  }
+  #imgLink {
+    width: 50px;  
+   }
