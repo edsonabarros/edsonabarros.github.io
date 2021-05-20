@@ -47,7 +47,7 @@ body {
    /*Sobre*/
 
    #about-area{
-       background-color: #242424;
+       background-color: #262626;
    }
    /*Titulo padrão para todas as sessões*/
    .main-title{
@@ -62,7 +62,7 @@ body {
     border-top: 2px solid #FFF;
     width: 10%;
     position: absolute;
-    top: 290px;
+    top: 300px;
     left: 45.2%;
 
    }
@@ -85,5 +85,32 @@ body {
    }
 
    #about-list i{
-     color: #FFF
+     color: #FFF;
+     margin-right: 10px;
+   }
+
+   /*Tecnologias*/
+
+   .service-box{
+     text-align: center;
+     margin-bottom: 50px;
+   }
+   .service-box i, .service-box h4{
+     transition: .5s;
+   }
+
+   .service-box i {
+     font-size:  36px;
+     margin-bottom: 20px;
+     color: #FFF;
+   }
+
+   .service-box h4{
+     font-size: 24px;
+     margin-bottom: 20px;
+     color: #FFF;
+   }
+
+   .service-box:hover > i{
+     color: #4e626b;
    }
