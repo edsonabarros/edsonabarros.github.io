@@ -6,8 +6,6 @@ body {
 
   }
 
-
-
   h1{
         color: #FFF;
        text-align: center;
@@ -52,20 +50,12 @@ body {
    /*Titulo padrão para todas as sessões*/
    .main-title{
        color: #FFF;
-       margin: 0 0 65px 0;
+       margin: 25px 0 65px 0;
        font-size: 30px;
        text-align: center;
    }
 
-   .main-title::after{
-    content: "";
-    border-top: 2px solid #FFF;
-    width: 10%;
-    position: absolute;
-    top: 300px;
-    left: 45.2%;
 
-   }
 
    .about-title{
      font-size: 17px;
@@ -91,6 +81,8 @@ body {
 
    /*Tecnologias*/
 
+
+
    .service-box{
      text-align: center;
      margin-bottom: 50px;
@@ -114,3 +106,59 @@ body {
    .service-box:hover > i{
      color: #4e626b;
    }
+
+   #main-title-tec{
+    color: #FFF;
+    margin: 0px 0 65px 0;
+    font-size: 30px;
+    text-align: center;
+   }
+   
+
+
+
+  /*Contato*/
+
+   #contact-area{
+    background-color: #353D41;
+  }
+
+  #contact-container{
+    background-color: #353D41;
+    padding-top: 0;
+    padding-bottom: 0;
+   
+  }
+   
+   #main-title-cont{
+    color: #FFF;
+    margin: 25px 0 25px 0;
+    font-size: 25px;
+    text-align: center;
+   }
+
+   .service-box-cont{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .service-box-cont i, .service-box-cont h4{
+    transition: .5s;
+  }
+
+
+  .service-box-cont i {
+    font-size:  25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #FFF;
+  }
+
+  .service-box-cont h4{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #FFF;
+  }
+
+  .service-box-cont:hover > i{
+    color: #4e626b;
+  }
