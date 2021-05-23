@@ -3,162 +3,169 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #232323;
+}
 
-  }
+h1 {
+    color: #FFF;
+    text-align: center;
+}
 
-  h1{
-        color: #FFF;
-       text-align: center;
-  }
-  
-  .row {
+.row {
     margin: 0;
-  }
-  
-  .container {
+}
+
+.container {
     padding: 70px 0;
-  }
-  
-  p, li {
+}
+
+p,
+li {
     color: #FFF;
     font-size: 20px;
-  }
-  
-  /* Barra de navegação */
-  header, .navbar {
+}
+
+
+/* Barra de navegação */
+
+header,
+.navbar {
     background-color: #353D41;
-  }
-  
-  #nav-container {
+}
+
+#nav-container {
     padding-top: 0;
     padding-bottom: 0;
-  }
-  
-  #imgLink {
-    width: 50px;  
-   }
+}
 
-   #imgLogo{
-       width: 300px;
-   }
+#imgLink {
+    width: 50px;
+}
 
-   /*Sobre*/
-
-   #about-area{
-       background-color: #262626;
-   }
-   /*Titulo padrão para todas as sessões*/
-   .main-title{
-       color: #FFF;
-       margin: 25px 0 65px 0;
-       font-size: 30px;
-       text-align: center;
-   }
+#imgLogo {
+    width: 300px;
+}
 
 
+/*Sobre*/
 
-   .about-title{
-     font-size: 17px;
-     color: #FFF;
-     text-transform: uppercase;
-     font-weight: bold;
-
-   }
-
-   #about-list{
-     list-style: none;
-     padding-left: 0;
-   }
-
-   #about-list li{
-     line-height: 30px;
-   }
-
-   #about-list i{
-     color: #FFF;
-     margin-right: 10px;
-   }
-
-   /*Tecnologias*/
+#about-area {
+    background-color: #262626;
+}
 
 
+/*Titulo padrão para todas as sessões*/
 
-   .service-box{
-     text-align: center;
-     margin-bottom: 50px;
-   }
-   .service-box i, .service-box h4{
-     transition: .5s;
-   }
+.main-title {
+    color: #FFF;
+    margin: 0 0 65px 0;
+    font-size: 30px;
+    text-align: center;
+}
 
-   .service-box i {
-     font-size:  36px;
-     margin-bottom: 20px;
-     color: #FFF;
-   }
+.about-title {
+    font-size: 17px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
-   .service-box h4{
-     font-size: 24px;
-     margin-bottom: 20px;
-     color: #FFF;
-   }
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
 
-   .service-box:hover > i{
-     color: #4e626b;
-   }
+#about-list li {
+    line-height: 30px;
+}
 
-   #main-title-tec{
+#about-list i {
+    color: #FFF;
+    margin-right: 10px;
+}
+
+
+/*Tecnologias*/
+
+#tecnology-area {
+    background-color: #232323;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i,
+.service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.service-box:hover>i {
+    color: #4e626b;
+}
+
+#main-title-tec {
     color: #FFF;
     margin: 0px 0 65px 0;
     font-size: 30px;
     text-align: center;
-   }
-   
+}
 
 
+/*Contato*/
 
-  /*Contato*/
-
-   #contact-area{
+#contact-area {
     background-color: #353D41;
-  }
+}
 
-  #contact-container{
+#contact-container {
     background-color: #353D41;
     padding-top: 0;
     padding-bottom: 0;
-   
-  }
-   
-   #main-title-cont{
+}
+
+#main-title-cont {
     color: #FFF;
     margin: 25px 0 25px 0;
     font-size: 25px;
     text-align: center;
-   }
+}
 
-   .service-box-cont{
+.service-box-cont {
     text-align: center;
     margin-bottom: 25px;
-  }
-  .service-box-cont i, .service-box-cont h4{
+}
+
+.service-box-cont i,
+.service-box-cont h4 {
     transition: .5s;
-  }
+}
 
-
-  .service-box-cont i {
-    font-size:  25px;
+.service-box-cont i {
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 5px;
     color: #FFF;
-  }
+}
 
-  .service-box-cont h4{
+.service-box-cont h4 {
     font-size: 15px;
     margin-bottom: 20px;
     color: #FFF;
-  }
+}
 
-  .service-box-cont:hover > i{
+.service-box-cont:hover>i {
     color: #4e626b;
-  }
+}
