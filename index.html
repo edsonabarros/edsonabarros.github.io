@@ -2,149 +2,113 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-    <title>Edson Barros</title>
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Links do Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!--Scrips Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!--Font Awesome -->
-    <script src="https://kit.fontawesome.com/706c0c3578.js" crossorigin="anonymous"></script>
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>TestandoPlataforma</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Blue.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <header>
-        <!--Class container - ajusta para um tamanho para esse container-->
-        <div class="container" id="nav-container">
-            <a href="#">
-                <img src="img/logo-edson.png" id="imgLogo" class="img-responsive img-fluid center-block img-circle">
-            </a>
+    <header class="header-blue">
+        <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="margin-left: 50px;">Edson Barros</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navcol-1">
+                    <ul class="navbar-nav" style="margin-right: 50px;">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conhecimentos">Conhecimentos</a></li>
+                        <li class="nav-item"></li>
+                    </ul>
+                    <form class="d-flex me-auto navbar-form" target="_self">
+                        <div class="d-flex align-items-center"><label class="form-label d-flex mb-0" for="search-field"></label></div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container hero">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                    <h1 style="margin-top: 150px;">Olá, esse é meu site pessoal</h1>
+                    <p>Aqui, você irá encontrar algumas informações sobre mim, como formas de contato ou projetos em que estou trabalhando!</p>
+                </div>
+                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder"><img class="device" src="assets/img/developer.svg" style="padding-top: 40px;padding-left: 30px;">
+                    <div class="phone-mockup">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <main>
-        <div class="container-fluid">
-            <!--Sobre-->
-            <div id="about-area">
-                <div class="container">
-                    <div class=row>
-                        <div class="col-12">
-                            <h3 class="main-title">Sobre</h3>
-                        </div>
-                        <div class="col-md-6">
-                            <img class="img-fluid img-responsive" src="img/notebook.png" alt="notbook">
-                        </div>
-                        <div class="col-md-6">
-                            <h3 class="about-title"> </h3>
-                            <p>Estudante de tecnologia desde 2016, cursando atualmente a faculdade de Ánalise e Desenvolvimento de Sistemas na Fatec Zona Sul, estou focado atualmente no aprendizado de tecnologias para desenvolvimento WEB.</p>
-                            <p>Você poderá encontrar algumas tecnologias que estou estudando ao rolar a página. Antes de continuar, vamos ver alguns dos cursos que já conclui: </p>
-                            <ul id="about-list">
-                                <li><i class="fas fa-check"></i> Manutenção de Computadores (Profissionalizante)</li>
-                                <li><i class="fas fa-check"></i> Gerenciamento de Redes (Profissionalizante)</li>
-                                <li><i class="fas fa-check"></i> Técnico em Informática</li>
-                                <li><i class="fas fa-check"></i> Ánalise e desenvolvimento de Sistemas (Cursando)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Tecnologias-->
-            <div id=tecnology-area>
-                <div class="container mw-100">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 id="main-title-tec">Tecnologias</h3>
-                        </div>
-                        <!--Banco de Dados-->
-                        <div class="col-md-4 service-box">
-                            <i class="fas fa-database"></i>
-                            <h4>Banco de Dados</h4>
-                            <p>Manipulação de Bancos de Dados utilizando a linguagem SQL.</p>
-                        </div>
-                        <!--Manutenção de Computadores-->
-                        <div class="col-md-4 service-box">
-                            <i class="fas fa-memory"></i>
-                            <h4>Manutenção de Computadores</h4>
-                            <p>Manutenção em Hardware e Software em computadores e notebooks.</p>
-                        </div>
-                        <!--Bootstrap-->
-                        <div class="col-md-4 service-box">
-                            <i class="fas fa-desktop"></i>
-                            <h4>Bootstrap 4</h4>
-                            <p>Esse site que você está acessando foi criado utilizando Bootstrap! Um framework para facilitar a criação de sites responsivos.</p>
-                        </div>
-                        <!--Java-->
-                        <div class="col-md-4 service-box">
-                            <i class="fas fa-save"></i>
-                            <h4>Java</h4>
-                            <p>Java esteve presente no meu TCC do curso técnico e na faculdade! Consigo me virar bem com a linguagem. </p>
-                        </div>
-                        <!--Python-->
-                        <div class="col-md-4 service-box">
-                            <i class="fas fa-stream"></i>
-                            <h4>Python</h4>
-                            <p>Liguagem que também estou estudando no momento! </p>
-                        </div>
-                        <!--Linux-->
-                        <div class="col-md-4 service-box">
-                            <i class="fas fa-server"></i>
-                            <h4>Linux</h4>
-                            <p>Entendimento de configurações e comandos avançados.</p>
-                        </div>
-
-                    </div>
+    <section id="sobre" class="highlight-blue" style="background: #3177aa;">
+        <h1 class="text-center" style="padding-bottom: 10px;">Sobre</h1>
+        <div class="container">
+            <div class="intro"></div>
+            <div class="buttons"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center"><img src="assets/img/developer%20(1).svg" style="width: 300px;height: 300px;margin-bottom: 15px;"></div>
+                <div class="col-md-6" style="font-family: 'Source Sans Pro', sans-serif;">
+                    <p style="font-size: 20px;font-family: 'Source Sans Pro', sans-serif;">Estudante de tecnologia desde 2016, cursando atualmente a faculdade de Análise e Desenvolvimento de Sistemas na Fatec Zona Sul, estou focado atualmente no aprendizado de tecnologias para desenvolvimento WEB.&nbsp;</p>
+                    <p style="font-family: 'Source Sans Pro', sans-serif;font-size: 18px;">Alguns dos cursos que já participei:&nbsp;<br></p>
+                    <p style="margin-bottom: 10px;font-family: 'Source Sans Pro', sans-serif;"><i class="fa fa-check"></i>&nbsp; Manutenção de Computadores (Profissionalizante)</p>
+                    <p style="margin-bottom: 10px;"><i class="fa fa-check"></i>&nbsp; Gerenciamento de Redes (Profissionalizante)<br></p>
+                    <p style="margin-bottom: 10px;"><i class="fa fa-check"></i>&nbsp; Técnico em Informática<br></p>
+                    <p style="margin-bottom: 10px;"><i class="fa fa-check"></i>&nbsp; Ánalise e desenvolvimento de Sistemas (Cursando)</p>
                 </div>
             </div>
         </div>
-    </main>
-    <!--Rodapé-->
-    <footer>
-        <div id="contact-area">
-            <div class="container" id="contact-container">
-                <div>
-                    <h3 id="main-title-cont">Contato</h3>
+    </section>
+    <section id="conhecimentos" class="features-blue">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Conhecimentos</h2>
+                <p class="text-center">Aqui estarei deixando alguns dos meus conhecimentos!</p>
+            </div>
+            <div class="row features">
+                <div class="col-sm-6 col-md-4 item"><i class="typcn typcn-database icon"></i>
+                    <h3 class="name">Banco de Dados</h3>
+                    <p class="description">Manipulação de Bancos de Dados utilizando a linguagem SQL.<br></p>
                 </div>
-                <div class="row">
-
-                    <!--Email-->
-                    <div class="col-md-4 service-box-cont">
-                        <a href="mailto:edsonabarros01@gmail.com?subject=Contato%20via%20GitHub"><i
-                                class="fas fa-envelope"></i>
-                            <h4>E-mail</h4>
-                        </a>
-
-                    </div>
-                    <!--Whatsapp-->
-                    <div class="col-md-4 service-box-cont">
-                        <a href="https://api.whatsapp.com/send?phone=5511960694108" target="_blank"> <i class="fab fa-whatsapp"></i>
-                            <h4>Whatsapp</h4>
-                        </a>
-
-                    </div>
-                    <!--LikedIn-->
-                    <div class="col-md-4 service-box-cont">
-                        <a href="https://www.linkedin.com/in/edson-de-andrade-barros-1877b917b/" target="_blank"><i
-                                class="fab fa-linkedin"></i>
-                            <h4>LinkedIn</h4>
-                        </a>
-
-                    </div>
-
+                <div class="col-sm-6 col-md-4 item"><i class="fas fa-memory icon"></i>
+                    <h3 class="name">Manutenção de computadores</h3>
+                    <p class="description">Manutenção em hardware e software de computadores e notebooks.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-desktop icon"></i>
+                    <h3 class="name">Bootstrap&nbsp;</h3>
+                    <p class="description">Esse site que você está acessando foi criado utilizando Bootstrap! Um framework para facilitar a criação de sites responsivos com HTML e CSS.<br></p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-coffee icon"></i>
+                    <h3 class="name">Java&nbsp;</h3>
+                    <p class="description">Habilidades adquiridas pelo uso da Linguagem no TCC do curso técnico e na faculdade!</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-hourglass-o icon"></i>
+                    <h3 class="name">Python</h3>
+                    <p class="description">Facilidade na criação de automações utilizando Python!&nbsp;</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-server icon"></i>
+                    <h3 class="name">Linux</h3>
+                    <p class="description">Conhecimentos de utilização e configuração de de distribuições Linux.</p>
                 </div>
             </div>
         </div>
+    </section>
+    <footer class="footer-basic" style="background: #3177aa;">
+        <div class="social"><a href="https://github.com/edsonabarros"><i class="icon ion-social-github" style="color: var(--bs-white);"></i></a><a href="https://www.linkedin.com/in/edsonabarros/"><i class="icon ion-social-linkedin" style="color: var(--bs-white);"></i></a><a href="mailto:edsonabarros01@gmail.com?subject=%5BGithub%20Pages%5D%20-%20(Digite%20o%20assunto)"><i class="icon ion-android-mail" style="color: rgb(255,255,255);"></i></a></div>
+        <p class="copyright" style="color: rgb(255,255,255);">Edson Barros © 2021</p>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
