@@ -52,6 +52,4 @@ function tipoPessoa() {
     tipoMensagem.style.display = "flex";
   }
 
-  console.log(whatsapp);
-  console.log(email);
 }

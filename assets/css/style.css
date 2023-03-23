@@ -418,7 +418,8 @@ body p {
   margin-bottom: 30px;
 }
 #icons-contato {
-  display: none;
+  display: flex;
+  justify-content: center;
   column-gap: 25px;
   margin-left: 20px;
 }
