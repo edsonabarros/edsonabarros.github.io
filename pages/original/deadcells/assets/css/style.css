@@ -1,0 +1,386 @@
+@font-face {
+  font-family: Berylium;
+  src: url(../fontes/berylium\ rg.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Berylium;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 125px;
+}
+
+#menu {
+  width: 100vw;
+  background-color: #201a2e;
+  opacity: 0.98;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
+  width: 1200px;
+}
+
+#menu img {
+  width: 125px;
+}
+
+#menu ul {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+#menu ul li a {
+  color: white;
+  font-size: 1.3rem;
+  font-family: Berylium;
+  font-weight: 600;
+}
+
+#menu ul li a:hover {
+  color: #bcfbfd;
+}
+
+.menu-btn {
+  display: none;
+  color: #bcfbfd;
+}
+
+#title {
+  width: 100%;
+  height: 800px;
+  background-image: url(/pages/games/dead-cells/assets/img/fundo-dead-cells.jpg);
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title .title__content {
+  display: flex;
+/*   align-content: center; */
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+#title .name_game {
+  width: 60vw;
+}
+
+#title .char_game {
+  width: 40vw;
+  height: 40%;
+}
+
+#about {
+  width: 100%;
+  min-height: 800px;
+  width: auto;
+  background-color: #101524;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .primary__text {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+#about .primary__text h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #bcfbfd;
+}
+
+#about p {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: aliceblue;
+}
+
+#about .another__infos {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+}
+
+#about .another__infos span {
+  color: #bcfbfd;
+  font-weight: 700;
+}
+
+#about .another__infos div {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#trailer {
+  width: 100%;
+  height: 800px;
+  background-image: url(/pages/games/dead-cells/assets/img/dead-cells-back2.jpg);
+  background-repeat: repeat;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#trailer iframe {
+  max-width: 1200px;
+  width: 90%;
+  height: 600px;
+}
+
+#dlc {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #101524;
+  color: #bcfbfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.dlc__text {
+  margin: 70px 0 50px 0;
+}
+
+.dlcs__item {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 60%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dlcs__itens {
+  box-shadow: 10px 5px 10px black;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  max-height: 600px;
+  padding: 10px;
+  background-color: #16203b;
+}
+
+.dlcs__itens p {
+  font-weight: 600;
+  text-align: justify;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.dlcs__itens img {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+}
+
+#buy {
+  width: 100%;
+  height: auto;
+  padding: 50px 0 50px 0;
+  background-color: #070b18;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#buy__store {
+  display: flex;
+  max-width: 1200px;
+  height: auto;
+  margin-top: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#buy .buy__box {
+  box-shadow: 10px 5px 10px black;
+  margin: 15px;
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #293249;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#buy .buy__box img {
+  width: 180px;
+  height: 150px;
+}
+
+#footer {
+  display: flex;
+  background-color: #101524;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__content {
+  width: 1200px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__content p {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.footer__content a {
+  color: aliceblue;
+}
+
+.oficial__site a {
+  color: #bcfbfd;
+}
+
+@media (max-width: 950px) {
+  .menu-btn {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    top: 65px;
+    left: -200%;
+    height: 23vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease;
+    background-color: #201a2e;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav.open {
+    left: 0;
+  }
+
+  #menu nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  nav ul li {
+    padding: 5px;
+    width: 100vw;
+    border-bottom: 1px solid #bcfbfd;
+  }
+
+  #primeiro {
+    border-top: 1px solid #bcfbfd;
+  }
+
+  #title .title__content {
+    flex-direction: column;
+    margin-top: 150px;
+    width: auto;
+  }
+
+  #title .name_game {
+    width: 60vw;
+  }
+
+  #title {
+
+    height: 100%;
+  }
+}
+
+@media (max-width: 862px) {
+  .footer__content .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  #about .another__infos {
+    flex-direction: column;
+  }
+
+  #dlc h1 {
+    font-size: 2.7rem;
+    width: 300px;
+  }
+
+  #buy p {
+    text-align: center;
+  }
+/*   #title .char_game {
+    min-width: 60%;
+    max-width: 80%;
+  } */
+}
+
+@media (max-width: 420px) {
+/*   #title .char_game {
+    min-width: 60%;
+    max-width: 80%;
+  } */
+}
