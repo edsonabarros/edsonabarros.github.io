@@ -472,7 +472,7 @@ body p {
   top: 40px;
   right: 12px;
 }
-.modal {
+ .modal {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -514,7 +514,7 @@ body p {
   border-radius: 50%;
   font-size: 16px;
   color: #e5e9f0;
-}
+} 
 .li-dev {
   border-left: 0.1rem solid #697886;
   width: 130px;

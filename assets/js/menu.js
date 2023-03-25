@@ -6,11 +6,11 @@ function menuHamburger() {
       console.log(ul[i]);
       ul[i].classList.remove("open");
     }
-    console.log(ul);
+
   } else {
     for (i = 0; i < ul.length; ++i) {
       ul[i].classList.add("open");
     }
-    console.log(ul);
+
   }
 }
